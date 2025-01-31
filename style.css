@@ -1,0 +1,51 @@
+*   body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3a3939;
+  color: #161515;
+}
+header {
+  background: #19191a;
+  color: white;
+  padding: 10px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.home-section, .about-section, .projects-section, .contact-section {
+  padding: 20px;
+  margin: 20px;
+  background: rgb(249, 248, 248);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.project-gallery {
+  display: flex;
+  justify-content: space-around;
+}
+.project-card {
+  background: #efe2df;
+  padding: 15px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #1f1f20;
+  color: white;
+ 
+}
